@@ -1,8 +1,8 @@
 <?php
-$host = 'db';
+$host = '172.17.0.1'; 
 $user = 'root';
-$password = 'password123';
-$database = 'db_sistema';
+$password = 'root123';
+$database = 'universidad';
 
 $conn = new mysqli($host, $user, $password, $database);
 $mensaje = "";
